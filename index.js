@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 
 app.get('/api/data', (req, res) => {
     // Fetch data from an external API or perform any other operations
-    const data = { message: 'Hello this is a connection of node and react' };
+    const data = { message: 'Hello this is a connection of node and react and hosted on render and netlify' };
     res.json(data);
   });
 
